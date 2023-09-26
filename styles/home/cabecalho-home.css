@@ -1,0 +1,40 @@
+
+.cabecalho-container nav {
+    display: flex;
+    margin: 0px 7rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cabecalho-div {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 0;
+
+}
+
+.cabecalho-input {
+    width: 393px;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: var(--cinza-claro);
+    border: none;
+    gap: 8px;
+    color: var(--cinza);
+    font-size: 14px;
+    font-style: var(--raleway);
+}
+
+.botao-login {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--raleway);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    background-color: var(--branco);
+    padding: 16px;
+    width: 182px;
+}

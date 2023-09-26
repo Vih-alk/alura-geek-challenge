@@ -1,0 +1,43 @@
+.rodape {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__descricao {
+    color: var(--preto);
+    text-align: center;
+    font-family: var(--raleway);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 0) {
+.rodape {
+    width: 100%;
+    padding: 2rem 0;
+}
+.rodape__descricao{
+    font-size: 0.4rem;
+}
+    
+}
+
+@media screen and (min-width: 768px) {
+.rodape {
+    width: 100%;
+    padding: 2rem 0;
+}
+.rodape__descricao {
+    font-size: 0.5rem;
+}
+   
+}
+
+@media screen and (min-width: 992px) {
+.rodape__descricao{
+    font-size: 16px;
+    margin: 0 6.5rem;
+}
+    
+}

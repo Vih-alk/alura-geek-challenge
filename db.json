@@ -1,0 +1,190 @@
+{
+    "produto": [
+      {  
+        "nome": "Figure One Piece - Monkey D. Luffy",
+        "imagemURL": "url()",
+        "preco": "R$79,90",
+        "id": "luffy",
+        "alt": "Miniatura Luffy",
+        "secao": "One piece" ,
+        "descricao": "Figure do pirata Monkey D. Luffy, capitão dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Pelúcia One Piece - Tony Chopper",
+        "imagemURL": "url()",
+        "preco": "R$60,00",
+        "id": "chopper",
+        "alt": "Pelúcia do Chopper",
+        "secao": "One piece" ,
+        "descricao": "Boneco de pelúcia  do Tony Chopper, médico dos Chapéus de Palha"
+        
+      },
+      {  
+        "nome": "Pelúcia One Piece- Laboon",
+        "imagemURL": "url()",
+        "preco": "R$60,00",
+        "id": "laboon",
+        "alt": "Pelúcia da Laboon",
+        "secao": "One piece" ,
+        "descricao": "Boneco de pelúcia da baleia Laboon"
+        
+      },
+      {  
+        "nome": "Navios One Piece - Going Merry e Thousand Sunny",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "navios",
+        "alt": "Miniaturas dos navios Merry e Sunny",
+        "secao": "One piece" ,
+        "descricao": "Miniaturas dos navios da tripulação do Chapéu de Palha em One Piece, o Going  Merry e Thousand Sunny"
+        
+      },
+      {  
+        "nome": "Almofada One Piece - Chapéus de Palha",
+        "imagemURL": "url()",
+        "preco": "R$29,90",
+        "id": "almofadaOp",
+        "alt": "Almofada de One Piece",
+        "secao": "One piece" ,
+        "descricao": "Almofada com a jolly roger do bando dos Chapéus de Palha"
+        
+      },
+      {  
+        "nome": "Caneca One Piece - Monkey D. Luffy",
+        "imagemURL": "url()",
+        "preco": "R$40,00",
+        "id": "canecaLuffy",
+        "alt": "Caneca One Piece",
+        "secao": "One piece" ,
+        "descricao": "Caneca One Piece do pirata Monkey D. Luffy, capitão dos Chapéus de palha "
+        
+      },
+      {  
+        "nome": "Figure One Piece- Roronoa Zoro",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "zoro",
+        "alt": "Miniatura do Zoro",
+        "secao": "Tripulação dos Chapéus de Palha" ,
+        "descricao": "Figure do espadachim Roronoa Zoro, membro do bando dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Figure One Piece- Vinsmoke Sanji",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "sanji",
+        "alt": "Miniatura do Sanji",
+        "secao": "Tripulação dos Chapéus de Palha" ,
+        "descricao": "Figure do cozinheiro Vinsmoke Sanji, membro do bando dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Figure One Piece- Nami",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "nami",
+        "alt": "Miniatura da Nami",
+        "secao": "Tripulação dos Chapéus de Palha" ,
+        "descricao": "Figure da navegadora Nami, membro do bando dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Figure One Piece- Nico Robin",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "robin",
+        "alt": "Miniatura da Robin",
+        "secao": "Tripulação dos Chapéus de Palha" ,
+        "descricao": "Figure da arqueóloga Nico Robin, membro do bando dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Figure One Piece- Usopp",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "usopp",
+        "alt": "Miniatura do Usopp",
+        "secao": "Tripulação dos Chapéus de Palha" ,
+        "descricao": "Figure do atirador Usopp, membro do bando dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Figure One Piece- Franky",
+        "imagemURL": "url()",
+        "preco": "R$35,00",
+        "id": "franky",
+        "alt": "Miniatura do Franky",
+        "secao": "Tripulação dos Chapéus de Palha" ,
+        "descricao": "Figure da carpinteiro Franky, membro do bando dos Chapéus de palha"
+        
+      },
+      {  
+        "nome": "Caneca Star Wars - Stormtrooper",
+        "imagemURL": "url()",
+        "preco": "R$35,90",
+        "id": "canecaStar",
+        "alt": "Caneca Star Wars",
+        "secao": "Diversos" ,
+        "descricao": "Caneca Star Wars em formato de capacete stormtrooper"
+        
+      },
+      {  
+        "nome": "Boneco Star Wars- Baby Yoda",
+        "imagemURL": "url()",
+        "preco": "R$45,00",
+        "id": "yoda",
+        "alt": "Boneco do baby Yoda",
+        "secao": "Diversos" ,
+        "descricao": "Boneco do baby Yoda, personagem de Star Wars"
+        
+      },
+      {  
+        "nome": "Pelúcia Pokémon- Pikachu",
+        "imagemURL": "url()",
+        "preco": "R$40,00",
+        "id": "pikachu",
+        "alt": "Pikachu de pelúcia",
+        "secao": "Diversos" ,
+        "descricao": "Boneco de pelúcia  da Pikachu, personagem do mangá/anime Pokémon"
+        
+      },
+      {  
+        "nome": "Pelúcia Chainsaw Man- Pochita",
+        "imagemURL": "url()",
+        "preco": "R$40,00",
+        "id": "pochita",
+        "alt": "Pochita de pelúcia",
+        "secao": "Diversos" ,
+        "descricao": "Boneco de pelúcia  da Pochita, personagem do mangá/anime Chainsaw Man"
+        
+      },
+      {  
+        "nome": "Boneco Super Sonic- Sonic",
+        "imagemURL": "url()",
+        "preco": "R$45,00",
+        "id": "sonic",
+        "alt": "Boneco do Sonic",
+        "secao": "Diversos" ,
+        "descricao": "Boneco do Sonic, personagem do jogo Super Sonic"
+        
+      },
+      {  
+        "nome": "Boneco Super Mario Bros- Mario",
+        "imagemURL": "url()",
+        "preco": "R$45,00",
+        "id": "mario",
+        "alt": "Boneco do Super Mario",
+        "secao": "Diversos" ,
+        "descricao": "Boneco do Mario, personagem do jogo Super Mario Bros"
+        
+      }
+      
+
+      
+      
+
+        
+    ]
+}

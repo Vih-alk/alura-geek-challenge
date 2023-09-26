@@ -1,0 +1,38 @@
+.banner-destaque {
+    display: flex;
+    height: 352px;
+    background-image: url('/assets/banner-image.png');
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.banner-destaque h1, .banner-destaque p {
+    color: var(--branco);
+    font-family: (--raleway);
+    font-weight: 700;
+    margin: 0 8rem;
+
+}
+
+.banner-destaque h1 {
+    font-size: 52px;
+}
+
+.banner-destaque p {
+    font-size: 22px;
+}
+
+.botao {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--raleway);
+    border: 1px solid var(--azul);
+    color: var(--branco);
+    background-color: var(--azul);
+    padding: 16px;
+    width: 182px;
+    margin: 2rem 8rem;
+}
