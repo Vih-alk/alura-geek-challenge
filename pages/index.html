@@ -14,181 +14,34 @@
         <title>Alura Geek | Home</title>
     </head>
     <body>
-        <header class = "cabecalho-container">
+        <header class = "cabecalho__container">
             <nav>
-                <div class = "cabecalho-div">
-                    <img class="cabecalho-titulo" src="/assets/Logo.png" alt="logo Alura geek">
-                    <input class="cabecalho-input" type="search" placeholder="O que deseja encontrar?">
+                <div class = "cabecalho__div">
+                    <img class="cabecalho__titulo" src="/assets/Logo.png" alt="logo Alura geek">
+                    <div class="input">
+                        <input class="cabecalho__input" type="search" placeholder="O que deseja encontrar?">
+                        <button class="input__bt"><i class="input__serach"><img src="/assets/Icone.svg"></i></button>
+                    </div>
                 </div>
                 <div class="login">
-                    <a href="#"><button class="botao-login" type="submit">Login</button></a>
+                    <a href="/pages/home-login.html"><button class="botao__login" type="submit">Login</button></a>
                 </div>
             </nav>
         </header>
       
         <section class="banner">
-            <div class="banner-destaque">
-                <h1>Dezembro promocional</h1>
-                <p>Produtos selecionados com 33% de desconto</p>
+            <div class="banner__destaque">
+                <h1 class="banner__titulo">Dezembro promocional</h1>
+                <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
                 <button class="botao">Ver produto</button>
             </div>
         </section>
+        <section class="titulo">
+            <h2 class = "produtos__titulo">Produtos</h2>
+            <div class="mostrar__mais">Ver tudo <img src="/assets/arrow_back_black_24dp 1.png" alt="seta"></div>
+        </section>
 
         <section class = "produtos" data-produto>
-            <section class = "produtos__op">
-                <div class="titulo">
-                    <div class = "produtos__titulo">One Piece</div>
-                    <div class="mostrar__mais">Ver tudo <img src="/assets/arrow_back_black_24dp 1.png" alt="seta"></div>
-                </div>
-                <div class = "produtos__area">
-
-                        <div class = "produto__box">
-                            <img src="/assets/luffy.png"  class = "produto__img" alt="Miniatura do Luffy">
-                            <h1 class = "produto__item">Figure One Piece - Monkey D. Luffy</h1>
-                            <p class="produto__preco">R$79,90</p>
-                            <a>Ver produto</a>
-                        </div>
-
-                        <div class = "produto__box">
-                            <img src="/assets/chopper-pelucia.jpeg" class = "produto__img" alt="Chopper de pelúcia">
-                            <h1 class = "produto__item">Pelúcia One Piece - Tony Chopper</h1>
-                            <p class="produto__preco">R$60,00</p>
-                            <a>Ver produto</a>
-                        </div>
-
-                        <div class = "produto__box">
-                            <img src="/assets/laboon.jpg" class = "produto__img" alt="Laboon de pelúcia">
-                            <h1 class = "produto__item">Pelúcia One Piece- Laboon</h1>
-                            <p class="produto__preco">R$60,00</p>
-                            <a>Ver produto</a>
-
-                        </div>
-                        <div class = "produto__box">
-                            <img src="/assets/barcos.jpeg"  class = "produto__img" alt="Miniaturas dos navios Merry e Sunny">
-                            <h1 class = "produto__item">Navios One Piece - Going Merry e Thousand Sunny</h1>
-                            <p class="produto__preco">R$35,00</p>
-                            <a>Ver produto</a>
-
-                        </div>
-                        <div class = "produto__box">
-                            <img src="/assets/almofada.jpeg"  class = "produto__img" alt="Almofada One Piece">
-                            <h1 class = "produto__item">Almofada One Piece - Chapéus de Palha</h1>
-                            <p class="produto__preco">R$29,90</p>
-                            <a>Ver produto</a>
-
-                        </div>
-                        <div class = "produto__box">
-                            <img src="/assets/caneca.jpeg"  class = "produto__img" alt="Caneca One Piece">
-                            <h1 class = "produto__item">Caneca One Piece - Monkey D. Luffy</h1>
-                            <p class="produto__preco">R$40,00</p>
-                            <a>Ver produto</a>
-
-                        </div>
-            </section>
-            <section class = "produtos__tripulacao">
-                <div class="titulo">
-                    <div class = "produtos__titulo">Tripulação dos Chapéus de Palha</div>
-                    <div class="mostrar__mais">Ver tudo <img src="/assets/arrow_back_black_24dp 1.png" alt="seta"></div>
-                </div>
-                <div class = "produtos__area">
-                    <div class = "produto__box">
-                        <img src="/assets/toy-zoro.jpg" class = "produto__img" alt="Miniatura do Zoro">
-                        <h1 class = "produto__item">Figure One Piece- Roronoa Zoro</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div>
-    
-                    <div class = "produto__box">
-                        <img src="/assets/toy-sanji.jpg" class = "produto__img" alt="Miniatura do Sanji">
-                        <h1 class = "produto__item">Figure One Piece- Vinsmoke Sanji</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/toy-nami.jpg"  class = "produto__img" alt="Miniatura da Nami">
-                        <h1 class = "produto__item">Figure One Piece- Nami</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/toy-robin.jpg"  class = "produto__img" alt="Miniatura da Robin">
-                        <h1 class = "produto__item">Figure One Piece- Nico Robin</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <!-- <div class = "produto__box">
-                        <img src="/assets/toy-chopper.jpg"  class = "produto__img" alt="Miniatura do Chopper">
-                        <h1 class = "produto__item">Figure One Piece- Chopper</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div> -->
-                    <div class = "produto__box">
-                        <img src="/assets/toy-usopp.jpg"  class = "produto__img" alt="Miniatura do Usopp">
-                        <h1 class = "produto__item">Figure One Piece- Usopp</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/toy-franky.jpg"  class = "produto__img" alt="Miniatura do Franky">
-                        <h1 class = "produto__item">Figure One Piece- Franky</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <!-- <div class = "produto__box">
-                        <img src="/assets/toy-brook.jpg"  class = "produto__img" alt="Miniatura do Brook">
-                        <h1 class = "produto__item">Figure One Piece- Brook</h1>
-                        <p class="produto__preco">R$35,00</p>
-                        <a>Ver produto</a>
-                    </div> -->
-                    
-                </div>
-            </section>
-            <section class = "produtos__diversos">
-                <div class="titulo">
-                    <div class = "produtos__titulo">Diversos</div>
-                    <div class="mostrar__mais">Ver tudo <img src="/assets/arrow_back_black_24dp 1.png" alt="seta"></div>
-                </div>
-                <div class = "produtos__area">
-            
-                    <div class = "produto__box">
-                        <img src="/assets/caneca-star.png"  class = "produto__img" alt="Caneca Star Wars">
-                        <h1 class = "produto__item">Caneca Star Wars - Stormtrooper</h1>
-                        <p class="produto__preco">R$35,90</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/baby-yoda.png"  class = "produto__img" alt="Boneco Baby Yoda">
-                        <h1 class = "produto__item">Boneco Star Wars- Baby Yoda</h1>
-                        <p class="produto__preco">R$45,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/picachu.png"  class = "produto__img" alt="Pikachu de pelúcia">
-                        <h1 class = "produto__item">Pelúcia Pokémon- Pikachu</h1>
-                        <p class="produto__preco">R$40,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/pochita.jpeg"  class = "produto__img" alt="Pochita de pelúcia">
-                        <h1 class = "produto__item">Pelúcia Chainsaw Man- Pochita</h1>
-                        <p class="produto__preco">R$40,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/sonic.png"  class = "produto__img" alt="Boneco Sonic">
-                        <h1 class = "produto__item">Boneco Super Sonic- Sonic</h1>
-                        <p class="produto__preco">R$45,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    <div class = "produto__box">
-                        <img src="/assets/mario.png"  class = "produto__img" alt="Boneco Mario">
-                        <h1 class = "produto__item">Boneco Super Mario Bros- Mario</h1>
-                        <p class="produto__preco">R$45,00</p>
-                        <a>Ver produto</a>
-                    </div>
-                    
-                </div>
-    
             </section>
 
         </section>
@@ -209,20 +62,16 @@
                     <div class="contato__titulo">Fale conosco</div>
                     <form class="formulario">
                         <fieldset class="formulario__campo">
-                            <input class="formulario__input" type="text" minlength="3" maxlength="50" id="nome" placeholder="Nome" required>
-                            <span class="mensagem__erro"></span>
+                            <input class="formulario__input" type="text" minlength="3" maxlength="50"  placeholder="Nome" required>
                         </fieldset>
                         <fieldset class="formulario__campo">
-                            <input class="formulario__input" type="text" minlength="5" maxlength="50" id="assunto" placeholder="Assunto" required>
-                            <span class="mensagem__erro"></span>
+                            <input class="formulario__input" type="text" minlength="5" maxlength="50"  placeholder="Assunto" required>
                         </fieldset>
                         <fieldset class="formulario__campo">
-                            <textarea class="formulario__textarea" minlength="15" maxlength="300" id="mensagem" placeholder="Escreva sua mensagem" required></textarea>
-                            <span class="mensagem__erro"></span>
+                            <textarea class="formulario__textarea" minlength="15" maxlength="300" id= placeholder="Escreva sua mensagem" required></textarea>
                         </fieldset>
                         <fieldset>
                             <button class="formulario__botao">Enviar mensagem</button>
-                            <span class="mensagem__enviar"></span>
                         </fieldset>
                     </form>
                 </div>
@@ -237,9 +86,10 @@
                 <p>Desenvolvido por Vívian Alkmim</p>
                 <p>2023</p>
             </div>
-    </footer>
+        </footer>
 
-        <!-- <script type="module" src="/controllers/produto-controllers.js"></script> -->
+        <script type="module" src="../controllers/produto-controllers.js"></script>
+
     </body>
     
 </html>

@@ -1,10 +1,9 @@
 .contato {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
     background: var(--azul-claro);
-    padding: 64px;
     align-items: center;
+    justify-content: center;
 }
 
 .contato__formulario{
@@ -12,13 +11,10 @@
     gap: 112px;
 }
 
-.contato__img {
-    width: 176px;
-}
-
 .formulario {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 8px;
 }
 
@@ -70,17 +66,6 @@
 }
 
 
-.mensagem__erro {
-    color: var(--vermelho);
-    font-size: 0.8rem;
-}
-
-.mensagem__enviar {
-    color: var(--roxo);
-    font-size: 1rem;
-}
-
-
 .formulario__input:focus, .formulario__textarea:focus {
     box-shadow: 0 0 0 0;
     border: none;
@@ -107,31 +92,87 @@
 }
 
 @media screen and (min-width: 0) {
+    .contato__formulario {
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     .contato__titulo{
         font-size: 14px;
+    }
+
+    .contato__img {
+        width: 126px;
+        padding: 32px 0;
+    }
+
+    .formulario__input{
+        width: 248px;
+        height: 56px ;
+    }
+    .formulario__textarea{
+        width: 248px;
+        height: 56px ;
+    }
+
+    .link__item{
+        text-align: center;
     }
     
     
 }
 
 @media screen and (min-width: 768px) {
+    .contato__formulario {
+        padding: 32px;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center
+    }
+
     .contato__titulo{
         font-size: 16px;
     }
+
+    .contato__img {
+        width: 176px;
+    }
+    .formulario__input{
+        width: 434px;
+        height: 56px ;
+    }
+    .formulario__textarea{
+        width: 434px;
+        height: 56px ;
+    }
+
+    .link__item{
+        text-align: start;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
+    .contato__formulario{
+        padding: 64px;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+    }
 
     .contato__titulo{
         font-size: 16px;
     }
     .formulario__input{
-        width: 32rem;
-        height: 3.5rem ;
+        width: 560px;
+        height: 56px ;
     }
     .formulario__textarea{
-        width: 32rem;
-        height: 5.75rem ;
+        width: 560px;
+        height: 56px ;
     }
     
 }

@@ -1,38 +1,116 @@
-.banner-destaque {
-    display: flex;
-    height: 352px;
+.banner{
     background-image: url('/assets/banner-image.png');
     background-repeat: no-repeat;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 16px;
 }
 
-.banner-destaque h1, .banner-destaque p {
+.banner__destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+   
+}
+
+.banner__titulo, .banner__texto {
     color: var(--branco);
     font-family: (--raleway);
     font-weight: 700;
-    margin: 0 8rem;
-
-}
-
-.banner-destaque h1 {
-    font-size: 52px;
-}
-
-.banner-destaque p {
-    font-size: 22px;
 }
 
 .botao {
-    font-size: 16px;
     font-weight: 400;
     font-family: var(--raleway);
     border: 1px solid var(--azul);
     color: var(--branco);
     background-color: var(--azul);
-    padding: 16px;
-    width: 182px;
-    margin: 2rem 8rem;
 }
+
+ @media screen and (min-width: 0) {
+    .banner {
+        height: 192px;
+        padding: 16px;
+        background-position: 40%;
+    }
+
+    .banner__destaque {
+        width: 736px;
+        height: 170px; 
+        gap: 10px;
+        padding-top: 20px;
+      
+    }
+    .banner__titulo {
+        font-size: 22px;
+        margin: 0 0.5rem;
+    }
+    
+    .banner__texto {
+        font-size: 14px;
+        margin: 0 0.5rem;
+        max-width: 250px;
+    }
+
+    .botao {
+        font-size: 12px;
+        padding: 12px;
+        width: 122px;
+        margin: 0.7 1rem;
+    }
+
+  
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 352px;
+        padding: 0 32px;
+        background-position: 60%;
+    }
+
+    .banner__destaque {
+        width: 936px;
+        height: 170px; 
+        gap: 12px;
+        padding-top: 170px;
+    }
+
+    .banner__titulo {
+        font-size: 52px;
+        margin: 0 8rem;
+    }
+    
+    .banner__texto {
+        display: flex;
+        font-size: 22px;
+        margin: 0 8rem;
+        max-width: 100%;
+    }
+
+    .botao {
+        font-size: 16px;
+        padding: 16px;
+        width: 182px;
+        margin: 1rem 8rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .banner{
+        height: 372px;
+        padding: 0 32px;
+        background-position: 100%;
+    }
+    .banner__destaque {
+        width: 1136px;
+        height: 261px; 
+        gap: 12px;
+        padding-top: 92px;
+    }
+
+    .botao {
+        font-size: 16px;
+        padding: 16px;
+        width: 182px;
+    }
+} 

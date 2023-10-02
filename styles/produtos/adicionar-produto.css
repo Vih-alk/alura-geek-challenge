@@ -1,0 +1,122 @@
+.botao__adm {
+    font-family: var(--raleway);
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    background-color: var(--branco)
+}
+
+.adicionar__produto{
+    display: flex;
+    background-color: var(--cinza-claro);
+    justify-content: center;
+    align-items: center;
+    padding: 92px 0;
+}
+
+.adicionar__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25.72px;
+}
+
+.adicionar__titulo {
+    display: flex;
+    align-self: stretch;
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-weight: 700;
+}
+
+.adicionar__input {
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    border: none;
+    padding: 0 12px;
+    height: 62px;
+}
+
+.adicionar__textarea {
+    display: flex;
+    justify-content: center;
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 18px 12px;
+    line-height: 125%;
+    height: 82px;
+}
+
+.adicionar__input:focus, .adicionar__textarea:focus{
+    outline: 0;
+}
+
+.adicionar__botao {
+    background-color: var(--azul);
+    color: var(--branco);
+    font-size: 16px;
+    font-family: var(--raleway);
+    font-weight: 400;
+    border: none;
+    height: 62px;
+}
+
+ @media screen and (min-width: 0) {
+    .botao__adm {
+        font-size: 12px;
+         padding: 10px;
+    }
+
+    .adicionar__titulo {
+        font-size: 18px;
+    }
+
+    .adicionar__input{
+        width: 279px;
+    }
+
+    .adicionar__textarea {
+        width: 279px;
+    }
+
+    .adicionar__botao {
+        width: 293px;
+    }
+  
+}
+
+@media screen and (min-width: 768px) {
+    .botao__adm {
+        font-size: 16px;
+         padding: 16px;
+    }
+
+    .adicionar__titulo {
+        font-size: 28px;
+    }
+
+    .adicionar__input {
+        width: 559px;
+    }
+
+    .adicionar__textarea {
+        width: 559px;
+    }
+
+    .adicionar__botao {
+        width: 583px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .adicionar__titulo{
+        font-size: 32px;
+    }
+    
+} 
