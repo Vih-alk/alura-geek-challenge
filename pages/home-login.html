@@ -25,12 +25,12 @@
             </nav>
         </header>
         <section class="iniciar__sessao">
-            <div class="iniciar__container">
+            <form class="iniciar__container" data-login>
                 <h2 class="iniciar__titulo">Iniciar Sessão</h2>
-                <input type="email" placeholder="Escreva seu email" class="iniciar__input" minlength="6" required>
-                <input type="password" placeholder="Escreva sua senha" class="iniciar__input" minlength="6" required>
-                <a href="/pages/produtos-home.html"><button type="submit" class="iniciar__botao">Entrar</button></a>
-            </div>
+                <input type="email" placeholder="Escreva seu email" class="iniciar__input" minlength="6" required data-email>
+                <input type="password" placeholder="Escreva sua senha" class="iniciar__input" minlength="6" required data-senha>
+                <button type="submit" class="iniciar__botao">Entrar</button>
+            </form>
         </section>
         <section class = "contato">
             <div class = "contato__formulario">
@@ -71,5 +71,9 @@
                 <p>2023</p>
             </div>
         </footer>
+
+        <script type="module" src="../controllers/login-controller.js"></script> 
+
+
     </body>
 </html>

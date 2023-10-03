@@ -1,21 +1,10 @@
 {
   "produto": [
     {
-      "name": "Figure One Piece - Monkey D. Luffy",
-      "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/luffy.png?raw=true",
-      "price": "R$79,90",
-      "id": "1",
-      "alt": "Miniatura Luffy",
-      "section": "One piece",
-      "description": "Figure do pirata Monkey D. Luffy, capitão dos Chapéus de palha"
-    },
-    {
       "name": "Pelúcia One Piece - Tony Tony Chopper",
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/chopper-pelucia.jpeg?raw=true",
       "price": "R$60,00",
       "id": "2",
-      "alt": "Pelúcia do Chopper",
-      "section": "One piece",
       "description": "Boneco de pelúcia  do Tony Tony Chopper, médico dos Chapéus de Palha"
     },
     {
@@ -23,8 +12,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/laboon.jpg?raw=true",
       "price": "R$60,00",
       "id": "3",
-      "alt": "Pelúcia da Laboon",
-      "section": "One piece",
       "description": "Boneco de pelúcia da baleia Laboon"
     },
     {
@@ -32,8 +19,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/barcos.jpeg?raw=true",
       "price": "R$35,00",
       "id": "4",
-      "alt": "Miniaturas dos navios Merry e Sunny",
-      "section": "One piece",
       "description": "Miniaturas dos navios da tripulação do Chapéu de Palha em One Piece, o Going  Merry e Thousand Sunny"
     },
     {
@@ -41,8 +26,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/almofada.jpeg?raw=true",
       "price": "R$29,90",
       "id": "5",
-      "alt": "Almofada de One Piece",
-      "section": "One piece",
       "description": "Almofada com a jolly roger do bando dos Chapéus de Palha"
     },
     {
@@ -50,8 +33,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/caneca.jpeg?raw=true",
       "price": "R$40,00",
       "id": "6",
-      "alt": "Caneca One Piece",
-      "section": "One piece",
       "description": "Caneca One Piece do pirata Monkey D. Luffy, capitão dos Chapéus de palha "
     },
     {
@@ -59,8 +40,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/toy-zoro.jpg?raw=true",
       "price": "R$35,00",
       "id": "7",
-      "alt": "Miniatura do Zoro",
-      "section": "Tripulação dos Chapéus de Palha",
       "description": "Figure do espadachim Roronoa Zoro, membro do bando dos Chapéus de palha"
     },
     {
@@ -68,8 +47,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/toy-sanji.jpg?raw=true",
       "price": "R$35,00",
       "id": "8",
-      "alt": "Miniatura do Sanji",
-      "section": "Tripulação dos Chapéus de Palha",
       "description": "Figure do cozinheiro Vinsmoke Sanji, membro do bando dos Chapéus de palha"
     },
     {
@@ -77,8 +54,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/toy-nami.jpg?raw=true",
       "price": "R$35,00",
       "id": "9",
-      "alt": "Miniatura da Nami",
-      "section": "Tripulação dos Chapéus de Palha",
       "description": "Figure da navegadora Nami, membro do bando dos Chapéus de palha"
     },
     {
@@ -86,8 +61,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/toy-robin.jpg?raw=true",
       "price": "R$35,00",
       "id": "10",
-      "alt": "Miniatura da Robin",
-      "section": "Tripulação dos Chapéus de Palha",
       "description": "Figure da arqueóloga Nico Robin, membro do bando dos Chapéus de palha"
     },
     {
@@ -95,8 +68,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/toy-usopp.jpg?raw=true",
       "price": "R$35,00",
       "id": "11",
-      "alt": "Miniatura do Usopp",
-      "section": "Tripulação dos Chapéus de Palha",
       "description": "Figure do atirador Usopp, membro do bando dos Chapéus de palha"
     },
     {
@@ -104,8 +75,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/toy-franky.jpg?raw=true",
       "price": "R$35,00",
       "id": "12",
-      "alt": "Miniatura do Franky",
-      "section": "Tripulação dos Chapéus de Palha",
       "description": "Figure da carpinteiro Franky, membro do bando dos Chapéus de palha"
     },
     {
@@ -113,8 +82,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/caneca-star.png?raw=true",
       "price": "R$35,90",
       "id": "13",
-      "alt": "Caneca Star Wars",
-      "section": "Diversos",
       "description": "Caneca Star Wars em formato de capacete stormtrooper"
     },
     {
@@ -122,8 +89,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/baby-yoda.png?raw=true",
       "price": "R$45,00",
       "id": "14",
-      "alt": "Boneco do baby Yoda",
-      "section": "Diversos",
       "description": "Boneco do baby Yoda, personagem de Star Wars"
     },
     {
@@ -131,8 +96,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/picachu.png?raw=true",
       "price": "R$40,00",
       "id": "15",
-      "alt": "Pikachu de pelúcia",
-      "section": "Diversos",
       "description": "Boneco de pelúcia  da Pikachu, personagem do mangá/anime Pokémon"
     },
     {
@@ -140,8 +103,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/pochita.jpeg?raw=true",
       "price": "R$40,00",
       "id": "16",
-      "alt": "Pochita de pelúcia",
-      "section": "Diversos",
       "description": "Boneco de pelúcia  da Pochita, personagem do mangá/anime Chainsaw Man"
     },
     {
@@ -149,8 +110,6 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/sonic.png?raw=true",
       "price": "R$45,00",
       "id": "17",
-      "alt": "Boneco do Sonic",
-      "section": "Diversos",
       "description": "Boneco do Sonic, personagem do jogo Super Sonic"
     },
     {
@@ -158,33 +117,14 @@
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/mario.png?raw=true",
       "price": "R$45,00",
       "id": "18",
-      "alt": "Boneco do Super Mario",
-      "section": "Diversos",
       "description": "Boneco do Mario, personagem do jogo Super Mario Bros"
     },
     {
       "imageURL": "https://github.com/Vih-alk/alura-geek-challenge/blob/master/assets/luffy.png?raw=true",
-      "section": "One Piece",
-      "name": "Figure- Luffy",
+      "name": "Figure - Luffy do Chapéu de Palha",
       "price": "R$65,00",
-      "description": "Miniatura Luffy do Chapéu de Palha",
-      "id": "u3yxgxp"
-    },
-    {
-      "imageURL": "",
-      "section": "",
-      "name": "",
-      "price": "",
-      "description": "",
-      "id": "JXN11w-"
-    },
-    {
-      "imageURL": "",
-      "section": "",
-      "name": "",
-      "price": "",
-      "description": "",
-      "id": "k6_ds06"
+      "description": "Miniatura do Monkey D. Luffy, capitão do bando dos chapéus de palha.",
+      "id": "MQHNdDx"
     }
   ]
 }

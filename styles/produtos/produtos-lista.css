@@ -33,6 +33,19 @@
     row-gap: 64px;
 }
 
+.produto__icones {
+    display: flex;
+    position: absolute;
+}
+
+.btn {
+    display: flex;
+    align-items: end;
+    border: solid 1px var(--cinza-medio);
+    margin: 8px 1px;
+
+}
+
 .produto__box{
     display: flex;
     flex-direction: column;

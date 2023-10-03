@@ -5,37 +5,38 @@
         <meta name = "viewport" content="width = device-width, initial-scale = 1.0">
         <link rel="stylesheet" href = "/reset.css">
         <link rel="stylesheet" href = "/base.css">
-        <link rel = "stylesheet" href="/styles/home/cabecalho-home.css">
+        <link rel="stylesheet" href="/styles/home/cabecalho-home.css">
+        <link rel="stylesheet" href="/styles/produtos/adicionar-produto.css">
         <link rel="stylesheet" href="/styles/home/contato-home.css">
         <link rel="stylesheet" href="/styles/home/rodape-home.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-        <title>Alura Geek | Produto</title>
+        <title>Alura Geek | Produtos</title>
     </head>
     <body>
         <header class = "cabecalho__container">
             <nav>
                 <div class = "cabecalho__div">
-                    <a href="/pages/index.html"><img class="cabecalho__titulo" src="/assets/Logo.png" alt="logo Alura geek"></a>
+                    <a href="/pages/index.html"><img class="cabecalho__titulo" src="/assets/Logo.png" alt="logo Alura geek"></a> 
                     <div class="input">
                         <input class="cabecalho__input" type="search" placeholder="O que deseja encontrar?">
                         <button class="input__bt"><i class="input__serach"><img src="/assets/Icone.svg"></i></button>
                     </div>
                 </div>
+                    <a href="/pages/produtos-home.html"><button class="botao__adm" type="submit">Menu administrador</button></a>
             </nav>
         </header>
-        <section class="produto">
-            <div class="titulo__produto">
-                <span>Todos os produtos</span>
-                <a href="/pages/produtos.html">
-                    <button>Adicionar Produto</button>
-                </a>
-             </div>
+        <section class="adicionar__produto">
+            <div>
+                <form class="adicionar__form" data-form>
+                    <h2 class="adicionar__titulo">Adicionar novo produto</h2>
+                    <input type="url" placeholder="URL da imagem" class="adicionar__input" data-url>
+                    <input type="text" placeholder="Nome do produto" class="adicionar__input" data-nome>
+                    <input type="text" placeholder="Preço do produto" class="adicionar__input" data-preco>
+                    <textarea type="text" placeholder="Descrição do produto" class="adicionar__textarea" data-descricao></textarea>
+                    <button type="submit" class="adicionar__botao">Adicionar Produto</button>
+                </form>
+            </div>
         </section>
-
-        <section class="sessao__produtos" data-todos-os-produtos>
-
-        </section>
-
         <section class = "contato">
             <div class = "contato__formulario">
                 <div class= "contato__imagem">
@@ -59,7 +60,7 @@
                             <input class="formulario__input" type="text" minlength="5" maxlength="50"  placeholder="Assunto" required>
                         </fieldset>
                         <fieldset class="formulario__campo">
-                            <textarea class="formulario__textarea" minlength="15" maxlength="300" placeholder="Escreva sua mensagem" required></textarea>
+                            <textarea class="formulario__textarea" minlength="15" maxlength="300"  placeholder="Escreva sua mensagem" required></textarea>
                         </fieldset>
                         <fieldset>
                             <button class="formulario__botao">Enviar mensagem</button>
@@ -75,5 +76,8 @@
                 <p>2023</p>
             </div>
         </footer>
+
+        <script type="module" src="/controllers/cria-produto-controller.js"></script>
+
     </body>
 </html>
